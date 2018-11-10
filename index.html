@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript Assigment</title>
+</head>
+<body onload="init()">
+	<script src="canvas.js"></script>
+	<canvas id="can" width="800" height="500" style="position:absolute;top:10%;left:10%;border:2px solid;"></canvas>
+	<img id="canvasimg" style="position:absolute;top:10%;left:52%;" style="display:none;">
+	<script>
+			document.onkeydown = function(event) {
+			var key = event.keyCode;
+			console.log(key)
+			input(key)
+		}
+	</script>
+</body>
+</html>
